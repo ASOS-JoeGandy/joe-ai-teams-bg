@@ -19,6 +19,8 @@ Download a model, I use ghostmix, https://civitai.com/api/download/models/76907
 
 Drop this file within `<project root>/stable-diffusion-webui/models/Stable-diffusion`
 
+> If this directory doesn't exist, you can manually create it, or run webui.sh once and it should make the directory
+
 Now run 
 
 `./webui.sh`
