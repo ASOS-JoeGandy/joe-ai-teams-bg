@@ -17,7 +17,7 @@ Start by starting up the webui for stable diffusion,
 
 Download a model, I use ghostmix, https://civitai.com/api/download/models/76907
 
-Drop this file within `/stable-diffusion-webui/models/Stable-diffusion`
+Drop this file within `<project root>/stable-diffusion-webui/models/Stable-diffusion`
 
 Now run 
 
