@@ -25,7 +25,9 @@ Now run
 
 `./webui.sh` within `<project root>/stable-diffusion-webui`
 
-A window should open in the browser with the ui, You can play around wit this, but the next step will automatically generate images for you
+Leave this terminal running the background to keep the web server up
+
+A window should open in the browser with the ui, You can play around with this, but the next step will automatically generate images for you
 
 # Generating the images
 
