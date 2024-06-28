@@ -19,7 +19,6 @@ prompts.forEach((_prompt, index) => {
 
   var raw = JSON.stringify({
     alwayson_scripts: {
-      "API payload": { args: [] },
       Comments: { args: [] },
       "Extra options": { args: [] },
       Hypertile: { args: [] },
