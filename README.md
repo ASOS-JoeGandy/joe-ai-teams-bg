@@ -23,7 +23,7 @@ Drop this file within `<project root>/stable-diffusion-webui/models/Stable-diffu
 
 Now run 
 
-`./webui.sh`
+`./webui.sh` within `<project root>/stable-diffusion-webui`
 
 A window should open in the browser with the ui, You can play around wit this, but the next step will automatically generate images for you
 
