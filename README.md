@@ -39,7 +39,7 @@ You can trigger lots of prompts with
 
 Running `node generate-images.js sunny garden "new york" london paris "90s cartoon" futuristic`
 
-> If you don't have node see https://medium.com/@priscillashamin/how-to-install-and-configure-nvm-on-mac-os-43e3366c75a6 and setup nvm, then use `nvm use node`
+> If you don't have node see https://medium.com/@priscillashamin/how-to-install-and-configure-nvm-on-mac-os-43e3366c75a6 and setup nvm, then use `nvm use node`. node version >= 18 is required.
 
 Each generation takes around a minute on the m1 macbook, so just be careful queuing up 100s
 
