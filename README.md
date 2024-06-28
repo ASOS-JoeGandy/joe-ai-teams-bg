@@ -37,7 +37,7 @@ Running `node generate-images.js test` in the project root
 
 You can trigger lots of prompts with
 
-Running `node generate-images.js sunny garden "new york" london paris "90s cartoon" futuristic`
+Running `node generate-images.js "Game of thrones" "hey arnold" "lord of the rings" programmer simpsons starwars "the god father" "the matrix"
 
 > If you don't have node see https://medium.com/@priscillashamin/how-to-install-and-configure-nvm-on-mac-os-43e3366c75a6 and setup nvm, then use `nvm use node`. node version >= 18 is required.
 
