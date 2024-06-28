@@ -15,6 +15,12 @@ Start by starting up the webui for stable diffusion,
 
 `cd <project root>/stable-diffusion-webui`
 
+Download a model, I use ghostmix, https://civitai.com/api/download/models/76907
+
+Drop this file within `/stable-diffusion-webui/models/Stable-diffusion`
+
+Now run 
+
 `./webui.sh`
 
 A window should open in the browser with the ui, You can play around wit this, but the next step will automatically generate images for you
