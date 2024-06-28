@@ -40,6 +40,9 @@ else
     # Get random file
     echo "[INFO] - Getting random image from $AI_IMAGES_DIRECTORY"
     ls $AI_IMAGES_DIRECTORY/*.png|sort -R |tail -1 |while read file; do
+        notification_text="New background: $file"
+        osascript -e 'display notification "'"$notification_text"'"'
+        echo $file > $SCRIPT_DIR/currentBackground.txt
         echo "[INFO] - Copying $file to be your new teams bg"
         cp $file "$TEAMS_BG_DIRECTORY/${uuid_static}_thumb.png"
         cp $file "$TEAMS_BG_DIRECTORY/$uuid_static.png"
